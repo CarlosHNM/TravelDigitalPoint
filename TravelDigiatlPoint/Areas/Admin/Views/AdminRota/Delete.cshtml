@@ -1,0 +1,55 @@
+﻿@model TravelDigiatlPoint.Models.Rota
+
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<h3>Deseja Deletar esta Rota ?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.Origem)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.Origem)
+        </dd>
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.Destino)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.Destino)
+        </dd>
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.Veiculo)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.Veiculo.Modelo)
+        </dd>
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.Funcionario)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.Funcionario.Nome)
+        </dd>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.DataHoraPartida)
+        </dd>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.DataHoraChegada)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.FlDanos)
+        </dt>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ObservacaoMotorista)
+        </dt>
+    </dl>
+    <hr />
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-outline-info">Retornar</a>
+    </form>
+</div>
+

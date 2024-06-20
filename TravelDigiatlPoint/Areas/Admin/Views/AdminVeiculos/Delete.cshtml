@@ -1,0 +1,58 @@
+﻿@model TravelDigiatlPoint.Models.Veiculo
+
+
+@using TravelDigiatlPoint.Extensions
+
+@{
+    ViewData["Title"] = "Excluir Veiculo";
+}
+
+<h2>Excluir Veiculo</h2>
+
+<div>
+    <h4>Você tem certeza que deseja excluir este funcionário?</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Placa)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Placa)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Ano)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Ano)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Cor)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Cor)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.CodVeiculo)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.CodVeiculo)
+        </dd>
+    </dl>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Confirmar Exclusão" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-default">Cancelar</a>
+    </form>
+</div>

@@ -1,0 +1,81 @@
+﻿@model TravelDigiatlPoint.Models.Rota
+
+@{
+    ViewData["Title"] = "Criar Rotas";
+}
+
+<h3>Criar Rotas</h3>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Origem" class="control-label"></label>
+        <input asp-for="Origem" class="form-control" />
+        <span asp-validation-for="Origem" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Destino" class="control-label"></label>
+        <input asp-for="Destino" class="form-control" />
+        <span asp-validation-for="Destino" class="text-danger"></span>
+    </div>
+
+    <div class="form-group col-md-4">
+        <label asp-for="FuncionarioId" class="control-label"></label>
+        <select asp-for="FuncionarioId" class="form-control" asp-items="ViewBag.FuncionarioId"></select>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="VeiculoId" class="control-label"></label>
+        <select asp-for="VeiculoId" class="form-control" asp-items="ViewBag.VeiculoId"></select>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="DataHoraPartida" class="control-label"></label>
+        <input asp-for="DataHoraPartida" class="form-control" />
+        <span asp-validation-for="DataHoraPartida" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="DataHoraChegada" class="control-label"></label>
+        <input asp-for="DataHoraChegada" class="form-control" />
+        <span asp-validation-for="DataHoraChegada" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label class="control-label">Houve danos ao veiculo?</label>
+        <br />
+        <label class="form-check-label" style="padding-left: 20px">
+            <input class="form-check-input" asp-for="FlDanos" /> @Html.DisplayNameFor(model => model.FlDanos)
+        </label>
+    </div>
+    <div class="form-group col-md-8" id="observacaoMotoristaDiv" style="display: none;">
+        <label asp-for="ObservacaoMotorista" class="control-label"></label>
+        <textarea asp-for="ObservacaoMotorista" class="form-control" rows="5"></textarea>
+        <span asp-validation-for="ObservacaoMotorista" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Criar Rota" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-outline-info">Retornar</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            toggleObservacaoMotorista();
+
+            $('input[name="FlDanos"]').change(function () {
+                toggleObservacaoMotorista();
+            });
+
+            function toggleObservacaoMotorista() {
+                if ($('input[name="FlDanos"]').is(':checked')) {
+                    $('#observacaoMotoristaDiv').show();
+                } else {
+                    $('#observacaoMotoristaDiv').hide();
+                }
+            }
+        });
+    </script>
+}

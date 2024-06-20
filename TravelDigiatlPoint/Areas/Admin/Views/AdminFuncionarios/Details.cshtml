@@ -1,0 +1,87 @@
+﻿@model TravelDigiatlPoint.Models.Funcionario
+
+@using TravelDigiatlPoint.Extensions
+
+@{
+    ViewData["Title"] = "Detalhes do Funcionário";
+}
+
+<h3>Detalhes do Funcionário</h3>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.NumeroDeCracha)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.NumeroDeCracha)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Pis)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Pis)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Endereco)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Endereco)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Complemento)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Complemento)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Cidade)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Cidade)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Estado)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.CPF)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.CPF)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Cargo)
+        </dt>
+        <dd class="col-sm-8">
+            @Model.Cargo.GetDescription()
+        </dd>
+    </dl>
+</div>
+<hr />
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a> |
+    <a asp-action="Index" class="btn btn-outline-info">Retornar</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var cargo = @Html.Raw(Json.Serialize(Enum.GetValues(typeof(TravelDigiatlPoint.Models.Cargo))));
+            var select = $('<select class="form-control" disabled></select>');
+            $.each(cargo, function (index, item) {
+                select.append('<option>' + item + '</option>');
+            });
+            $('dd.col-sm-8:last').html(select);
+        });
+    </script>
+}

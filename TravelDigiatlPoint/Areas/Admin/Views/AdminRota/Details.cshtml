@@ -1,0 +1,84 @@
+﻿@model TravelDigiatlPoint.Models.Rota
+
+@using TravelDigiatlPoint.Extensions
+
+
+@{
+    ViewData["Title"] = "Detalhes das Rotas";
+}
+
+<h3>Detalhes das Rotas</h3>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Origem)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Origem)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Destino)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Destino)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Veiculo)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Veiculo.Modelo)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Funcionario)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Funcionario.Nome)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.DataHoraPartida)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.DataHoraPartida)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.DataHoraChegada)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.DataHoraChegada)
+        </dd>
+
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.FlDanos)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.FlDanos)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.ObservacaoMotorista)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.ObservacaoMotorista)
+        </dd>
+
+    </dl>
+</div>
+<hr />
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a> |
+    <a asp-action="Index" class="btn btn-outline-info">Retornar</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var cargo = @Html.Raw(Json.Serialize(Enum.GetValues(typeof(TravelDigiatlPoint.Models.Cargo))));
+            var select = $('<select class="form-control" disabled></select>');
+            $.each(cargo, function (index, item) {
+                select.append('<option>' + item + '</option>');
+            });
+            $('dd.col-sm-8:last').html(select);
+        });
+    </script>
+}

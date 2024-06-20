@@ -1,0 +1,7 @@
+﻿@model Funcionario
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+    <h3> Nome: @Model.Nome</h3>
+    <a asp-controller="MotoristaRotas" asp-action="Details"
+       asp-route-lancheId="@Model.Id">@Model.Cargo</a>
+</div>

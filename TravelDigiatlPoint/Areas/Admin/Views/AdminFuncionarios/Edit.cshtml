@@ -1,0 +1,76 @@
+﻿@model TravelDigiatlPoint.Models.Funcionario
+
+@{
+    ViewData["Title"] = "Editar Funcionário";
+}
+
+<h2>Editar Funcionário</h2>
+
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="NumeroDeCracha" class="control-label"></label>
+        <input asp-for="NumeroDeCracha" class="form-control" />
+        <span asp-validation-for="NumeroDeCracha" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Pis" class="control-label"></label>
+        <input asp-for="Pis" class="form-control" />
+        <span asp-validation-for="Pis" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Endereco" class="control-label"></label>
+        <input asp-for="Endereco" class="form-control" />
+        <span asp-validation-for="Endereco" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Complemento" class="control-label"></label>
+        <input asp-for="Complemento" class="form-control" />
+        <span asp-validation-for="Complemento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cidade" class="control-label"></label>
+        <input asp-for="Cidade" class="form-control" />
+        <span asp-validation-for="Cidade" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Estado" class="control-label"></label>
+        <input asp-for="Estado" class="form-control" />
+        <span asp-validation-for="Estado" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CPF" class="control-label"></label>
+        <input asp-for="CPF" class="form-control" />
+        <span asp-validation-for="CPF" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Nome" class="control-label"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cargo" class="control-label"></label>
+        <select asp-for="Cargo" class="form-control">
+            @foreach (var value in Enum.GetValues(typeof(Cargo)))
+            {
+                <option value="@value">@((Cargo)value)</option>
+            }
+        </select>
+        <span asp-validation-for="Cargo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Salvar" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-default">Cancelar</a>
+    </div>
+</form>

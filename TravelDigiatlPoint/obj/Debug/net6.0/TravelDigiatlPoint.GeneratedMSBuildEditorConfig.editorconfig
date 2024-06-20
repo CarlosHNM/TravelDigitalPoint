@@ -1,0 +1,167 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TravelDigiatlPoint
+build_property.RootNamespace = TravelDigiatlPoint
+build_property.ProjectDir = C:\ProjetoDotNet\TravelDigiatlPoint\TravelDigiatlPoint\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\ProjetoDotNet\TravelDigiatlPoint\TravelDigiatlPoint
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminFuncionarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5GdW5jaW9uYXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminFuncionarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5GdW5jaW9uYXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminFuncionarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5GdW5jaW9uYXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminFuncionarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5GdW5jaW9uYXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminFuncionarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5GdW5jaW9uYXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminRota/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb3RhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminRota/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb3RhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminRota/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb3RhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminRota/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb3RhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminRota/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb3RhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminVeiculos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5WZWljdWxvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminVeiculos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5WZWljdWxvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminVeiculos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5WZWljdWxvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminVeiculos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5WZWljdWxvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/AdminVeiculos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5WZWljdWxvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/MotoristaRotas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW90b3Jpc3RhXFZpZXdzXE1vdG9yaXN0YVJvdGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/Motorista/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW90b3Jpc3RhXFZpZXdzXE1vdG9yaXN0YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/Shared/_FuncionariosResumo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW90b3Jpc3RhXFZpZXdzXFNoYXJlZFxfRnVuY2lvbmFyaW9zUmVzdW1vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW90b3Jpc3RhXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW90b3Jpc3RhXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW90b3Jpc3RhXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/Shared/_BarraMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYXJyYU1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-51hl8zhx3f
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-aee4wrdqoj

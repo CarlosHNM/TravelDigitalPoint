@@ -1,0 +1,54 @@
+﻿@model TravelDigiatlPoint.Models.Veiculo
+
+
+@{
+    ViewData["Title"] = "Detalhes do Funcionário";
+}
+
+<h3>Detalhes do Veiculo</h3>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Placa)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Placa)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Ano)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Ano)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Cor)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Cor)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.CodVeiculo)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.CodVeiculo)
+        </dd>
+    </dl>
+</div>
+<hr />
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a> |
+    <a asp-action="Index" class="btn btn-outline-info">Retornar</a>

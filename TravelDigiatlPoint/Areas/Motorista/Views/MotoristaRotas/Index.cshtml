@@ -1,0 +1,9 @@
+﻿@using TravelDigiatlPoint.ViewModel
+@model FuncionarioViewModel
+
+<div class="row">
+    @foreach (var func in Model.Funcionarios)
+    {
+        <partial name="_FuncionariosResumo" for="@func" />
+    }
+</div>
