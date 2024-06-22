@@ -1,0 +1,37 @@
+﻿@model TravelDigiatlPoint.Models.Rota
+
+<div class="container">
+    <h2>Finalizar Viagem</h2>
+    <form asp-action="EndTrip" method="post">
+        <div class="form-group">
+            <label>Data e Hora de Partida:</label>
+            <input type="text" class="form-control" value="@Model.DataHoraPartida" readonly />
+        </div>
+        <div class="form-group">
+            <label>Data e Hora de Chegada:</label>
+            <input type="text" class="form-control" value="@DateTime.Now" readonly />
+        </div>
+        <div class="form-group">
+            <label>Teve algum problema com o veículo?</label>
+            <input type="checkbox" class="form-control" id="flDanos" name="flDanos" />
+        </div>
+        <div class="form-group" id="observacaoDiv" style="display: none;">
+            <label>Observação do Motorista:</label>
+            <textarea class="form-control" id="observacaoMotorista" name="observacaoMotorista"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Finalizar Viagem</button>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('flDanos').addEventListener('change', function () {
+            var observacaoDiv = document.getElementById('observacaoDiv');
+            if (this.checked) {
+                observacaoDiv.style.display = 'block';
+            } else {
+                observacaoDiv.style.display = 'none';
+            }
+        });
+    </script>
+}

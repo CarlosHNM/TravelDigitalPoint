@@ -1,0 +1,23 @@
+﻿@model TravelDigiatlPoint.Models.Rota
+
+<div class="container">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Viagem Iniciada</h2>
+                <p class="card-text"><h5>Origem: @Model.Origem</h5></p>
+                <p class="card-text"><h5>Destino: @Model.Destino</h5></p>
+                <p class="card-text"><h6>Veículo: @Model.Veiculo.CodVeiculo</h6></p>
+                <p class="card-text"><h6>Motorista: @Model.Funcionario.Nome</h6></p>
+                <p class="card-text"><h6>Data e Hora de Partida: @Model.DataHoraPartida</h6></p>
+                <p class="card-text"><h6>Data e Hora de Chegada: @Model.DataHoraChegada</h6></p>
+                <p class="btn btn-group align-content-lg-end">
+                    <a asp-controller="MotoristaRotas" asp-action="Details" asp-route-id="@Model.FuncionarioId"
+                       class="btn btn-outline-info">Voltar</a>
+                    <a asp-controller="MotoristaRotas" asp-action="EndTrip" asp-route-id="@Model.Id"
+                       class="btn btn-outline-danger">Finalizar Viagem</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

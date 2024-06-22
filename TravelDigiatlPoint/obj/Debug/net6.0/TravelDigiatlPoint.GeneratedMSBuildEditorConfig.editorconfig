@@ -90,8 +90,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/MotoristaRotas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW90b3Jpc3RhXFZpZXdzXE1vdG9yaXN0YVJvdGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/MotoristaRotas/EndTrip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW90b3Jpc3RhXFZpZXdzXE1vdG9yaXN0YVJvdGFzXEVuZFRyaXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/MotoristaRotas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW90b3Jpc3RhXFZpZXdzXE1vdG9yaXN0YVJvdGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/MotoristaRotas/StartTrip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW90b3Jpc3RhXFZpZXdzXE1vdG9yaXN0YVJvdGFzXFN0YXJ0VHJpcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ProjetoDotNet/TravelDigiatlPoint/TravelDigiatlPoint/Areas/Motorista/Views/Motorista/Index.cshtml]

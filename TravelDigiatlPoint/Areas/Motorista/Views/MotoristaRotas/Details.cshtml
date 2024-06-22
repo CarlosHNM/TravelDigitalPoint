@@ -1,0 +1,22 @@
+﻿@model IEnumerable<TravelDigiatlPoint.Models.Rota>
+
+<div class="container">
+    <h2>Detalhes das Viagens</h2>
+    @foreach (var rota in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Viagem de @rota.Origem para @rota.Destino</h5>
+                <p class="card-text"><strong>Veículo:</strong> @rota.Veiculo.CodVeiculo</p>
+                <p class="card-text"><strong>Motorista:</strong> @rota.Funcionario.Nome</p>
+                <p class="card-text"><strong>Data e Hora de Partida:</strong> @rota.DataHoraPartida</p>
+                <p class="card-text"><strong>Data e Hora de Chegada:</strong> @rota.DataHoraChegada</p>
+                <p class="card-text"><strong>Observações:</strong> @rota.ObservacaoMotorista</p>
+                <a asp-controller="MotoristaRotas" asp-action="StartTrip" asp-route-id="@rota.Id"
+                   class="btn btn-outline-info">Iniciar Viagem</a>
+                <a asp-controller="MotoristaRotas" asp-action="EndTrip" asp-route-id="@rota.Id"
+                   class="btn btn-outline-danger">Finalizar Viagem</a>
+            </div>
+        </div>
+    }
+</div>

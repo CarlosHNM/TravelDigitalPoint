@@ -37,18 +37,7 @@
         <input asp-for="DataHoraChegada" class="form-control" />
         <span asp-validation-for="DataHoraChegada" class="text-danger"></span>
     </div>
-    <div class="form-group col-md-4">
-        <label class="control-label">Houve danos ao veiculo?</label>
-        <br />
-        <label class="form-check-label" style="padding-left: 20px">
-            <input class="form-check-input" asp-for="FlDanos" /> @Html.DisplayNameFor(model => model.FlDanos)
-        </label>
-    </div>
-    <div class="form-group col-md-8" id="observacaoMotoristaDiv" style="display: none;">
-        <label asp-for="ObservacaoMotorista" class="control-label"></label>
-        <textarea asp-for="ObservacaoMotorista" class="form-control" rows="5"></textarea>
-        <span asp-validation-for="ObservacaoMotorista" class="text-danger"></span>
-    </div>
+   
 
     <div class="form-group">
         <input type="submit" value="Criar Rota" class="btn btn-primary" />
